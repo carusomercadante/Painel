@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Franklin Gothic Medium';
+  box-sizing: border-box;
+}
+
+header {
+  background: black;
+  padding: 18px;
+  justify-content: center;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+header nav span {
+  font-weight: bold;
+  color: aqua;
+  padding: 6px;
+}
+
+header nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: aqua;
+  padding: 6px;
+  border-radius: 6px;
+}
+
+header nav a:hover {
+  background: red;
+}

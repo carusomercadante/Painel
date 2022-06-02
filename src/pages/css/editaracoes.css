@@ -1,0 +1,58 @@
+h2 {
+  text-align: center;
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+
+form {
+  background: rgb(8, 91, 94);
+  margin: auto;
+  padding: 12px;
+  border-radius: 4px;
+  max-width: 390px;
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+}
+
+form .campo {
+  margin-bottom: 12px;
+}
+
+form div input {
+  padding: 6px;
+  border-radius: 6px;
+  border: 0px;
+  font-size: 16px;
+}
+
+form div label {
+  color: red;
+  padding-bottom: 6px;
+}
+
+#btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+form button {
+  padding: 8px 32px;
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  color: black;
+}
+
+#btn1 {
+  background: tomato;
+}
+
+#btn2 {
+  background: greenyellow;
+  margin-right: 12px;
+}

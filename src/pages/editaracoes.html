@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atualiza Ações</title>
+  <link rel="stylesheet" href="../global.css">
+  <link rel="stylesheet" href="./css/editaracoes.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="../index-acoes.html">CADASTRAR AÇÕES</a>
+      <span> | </span>
+      <a href="./acoes.html">VER PAINEL</a>
+    </nav>
+  </header>
+
+  <h2>EDITAR COTAÇÃO </h2>
+  <form name="editar">
+    <div class="campo">
+      <label for="papel">Papel</label>
+      <input type="text" id="papel" name="papel">
+    </div>
+    <div class="campo">
+      <label for="data">Data</label>
+      <input type="datetime" id="data" name="data">
+    </div>
+    <div class="campo">
+      <label for="valor">Valor</label>
+      <input type="text" id="valor" name="valor">
+    </div>
+    <div id="btn">
+      <button type="submit" id="btn2">Salvar</button>
+      <button type="button" onclick="cancelarEdicao()" id="btn1">Voltar</button>
+    </div>
+
+  </form>
+
+  <script src="./editaracoes.js" type="module"></script>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+  <title>CRUD_Açoes</title>
+  <link rel="stylesheet" href="./global.css">
+  <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="#">CADASTRAR AÇÕES</a>
+      <span> | </span>
+      <a href="./pages/acoes.html">VER PAINEL</a>
+    </nav>
+  </header>
+
+  <!-- para a parte debaixo, usar tailwind no projeto-->
+  <h2>PAPÉIS</h2>
+  <form name="acoes">
+    <div class="campo">
+      <label for="papel">Papel</label>
+      <input type="text" id="papel" name="papel" placeholder="Informe o codigo do PAPEL">
+    </div>
+    <div class="campo">
+      <label for="data">Data</label>
+      <input type="datetime" id="data" name="data" placeholder="Informe a data da cotação">
+    </div>
+    <div class="campo">
+      <label for="valor">Valor</label>
+      <input type="text" id="valor" name="valor" placeholder="Informe a cotação">
+    </div>
+    <div id="btn">
+      <button type="submit" id="btn2">Salvar</button>
+      <button type="reset" id="btn1">Limpar</button>
+    </div>
+
+  </form>
+
+  <script src="./appacoes.js" type="module"></script>
+</body>
+
+</html>

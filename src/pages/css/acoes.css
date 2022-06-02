@@ -1,0 +1,47 @@
+main h2 {
+  text-align: center;
+  margin: 22px;
+}
+
+h3 {
+  margin-top: -4px;
+  padding: 8px;
+}
+
+
+.acoes {
+  font-size: 14px;
+  background: black;
+  color: aqua;
+  padding: 16px;
+  border-radius: 4px;
+  width: max-content;
+  margin: auto;
+  margin-bottom: 32px;
+}
+
+.acoes div:last-child {
+  margin-top: 8px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.acoes div:last-child button {
+  padding: 4px 32px;
+  border: 0px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  color: black;
+}
+
+.acoes div:last-child button:first-child {
+  background: greenyellow;
+  margin-right: 12px;
+  border: 0px;
+}
+
+.acoes div:last-child button:last-child {
+  background: tomato;
+  border: 0px;
+}
